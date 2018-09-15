@@ -1,0 +1,156 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* amount_approver
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-11 05:01+0000\n"
+"PO-Revision-Date: 2018-07-11 05:01+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_account_id
+msgid "Account"
+msgstr "Conta"
+
+#. module: amount_approver
+#: model:ir.ui.view,arch_db:amount_approver.approver_sale_order_form_view
+msgid "Approve Sale"
+msgstr "Aprovar Venda"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_res_users_approver_ids
+#: model:ir.ui.view,arch_db:amount_approver.approver_res_users_form_view
+msgid "Approver"
+msgstr "Aprovador"
+
+#. module: amount_approver
+#: model:ir.ui.view,arch_db:amount_approver.approver_sale_order_form_view
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_create_uid
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_create_uid
+msgid "Created by"
+msgstr "Criado por"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_create_date
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_create_date
+msgid "Created on"
+msgstr "Criado em"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_display_name
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_display_name
+msgid "Display Name"
+msgstr "Nome exibido"
+
+#. module: amount_approver
+#: model:res.groups,name:amount_approver.group_approver_admin
+msgid "Grant apprrover permissions"
+msgstr "Conceder permissão do aprovador"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_id
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_id
+msgid "ID"
+msgstr "ID"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver___last_update
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line___last_update
+msgid "Last Modified on"
+msgstr "Última modificação em"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_write_uid
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_write_uid
+msgid "Last Updated by"
+msgstr "Última atualização por"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_write_date
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_write_date
+msgid "Last Updated on"
+msgstr "Última atualização em"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_maximum_allowed
+msgid "Maximum Allowed"
+msgstr "Máximo Permitido"
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_minimum_allowed
+msgid "Minimum Allowed"
+msgstr "Mínimo Permitido"
+
+#. module: amount_approver
+#: model:ir.model,name:amount_approver.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de Compra"
+
+#. module: amount_approver
+#: model:ir.model,name:amount_approver.model_sale_order
+msgid "Quotation"
+msgstr "Cotação"
+
+#. module: amount_approver
+#: code:addons/amount_approver/models/purchase.py:36
+#, python-format
+msgid "The product %s doesn't have an Expense Account. Please, register one."
+msgstr "O produto %s não possui Conta de Despesa. Por favor, preencha uma."
+
+#. module: amount_approver
+#: code:addons/amount_approver/models/sale.py:50
+#, python-format
+msgid "The product %s doesn't have an Income Account. Please, register one."
+msgstr "O produto %s não possui Conta de Receita. Por favor, preencha uma."
+
+#. module: amount_approver
+#: model:ir.model.fields,field_description:amount_approver.field_amount_approver_line_user_id
+msgid "User"
+msgstr "Usuário"
+
+#. module: amount_approver
+#: model:ir.model,name:amount_approver.model_res_users
+msgid "Users"
+msgstr "Usuários"
+
+#. module: amount_approver
+#: code:addons/amount_approver/models/purchase.py:38
+#, python-format
+msgid "You don't have the necessary permission to sell the product %s. You'll need the approval to confirm this Purchase Order"
+msgstr "Você não possui as permissão necessárias para vender o produto %s. Você irá precisar de aprovação para confirmar a Ordem de Compra"
+
+#. module: amount_approver
+#: code:addons/amount_approver/models/sale.py:53
+#, python-format
+msgid "You don't have the necessary permission to sell the product %s. You'll need the approval to confirm this Sale Order"
+msgstr "Você não possui as permissão necessárias para vender o produto %s. Você irá precisar de aprovação para confirmar a Ordem de Venda"
+
+#. module: amount_approver
+#: code:addons/amount_approver/models/purchase.py:28
+#: code:addons/amount_approver/models/sale.py:41
+#, python-format
+msgid "Your don't the permission to sell the product %s for this price, please ask for approvance."
+msgstr "Você não tem permissão para vender o produto %s por esse valor, por favor solicita aprovação."
+
+#. module: amount_approver
+#: model:ir.model,name:amount_approver.model_amount_approver
+msgid "amount.approver"
+msgstr "amount.approver"
+
+#. module: amount_approver
+#: model:ir.model,name:amount_approver.model_amount_approver_line
+msgid "amount.approver.line"
+msgstr "amount.approver.line"
+
